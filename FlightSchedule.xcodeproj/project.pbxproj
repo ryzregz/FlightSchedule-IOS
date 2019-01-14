@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CAEAE2921ECCEF600DB641E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAEAE2821ECCEF600DB641E /* AppDelegate.swift */; };
+		6CAEAE2B21ECCEF700DB641E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAEAE2A21ECCEF700DB641E /* ViewController.swift */; };
+		6CAEAE2E21ECCEF700DB641E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CAEAE2C21ECCEF700DB641E /* Main.storyboard */; };
+		6CAEAE3021ECCEFC00DB641E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CAEAE2F21ECCEFC00DB641E /* Assets.xcassets */; };
+		6CAEAE3321ECCEFC00DB641E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CAEAE3121ECCEFC00DB641E /* LaunchScreen.storyboard */; };
+		6CAEAE3E21ECCEFD00DB641E /* FlightScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAEAE3D21ECCEFD00DB641E /* FlightScheduleTests.swift */; };
+		6CAEAE4921ECCEFD00DB641E /* FlightScheduleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAEAE4821ECCEFD00DB641E /* FlightScheduleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CAEAE3A21ECCEFD00DB641E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CAEAE1D21ECCEF600DB641E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CAEAE2421ECCEF600DB641E;
+			remoteInfo = FlightSchedule;
+		};
+		6CAEAE4521ECCEFD00DB641E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CAEAE1D21ECCEF600DB641E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CAEAE2421ECCEF600DB641E;
+			remoteInfo = FlightSchedule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CAEAE2521ECCEF600DB641E /* FlightSchedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightSchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CAEAE2821ECCEF600DB641E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CAEAE2A21ECCEF700DB641E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CAEAE2D21ECCEF700DB641E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CAEAE2F21ECCEFC00DB641E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CAEAE3221ECCEFC00DB641E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CAEAE3421ECCEFC00DB641E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CAEAE3921ECCEFD00DB641E /* FlightScheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightScheduleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CAEAE3D21ECCEFD00DB641E /* FlightScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightScheduleTests.swift; sourceTree = "<group>"; };
+		6CAEAE3F21ECCEFD00DB641E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CAEAE4421ECCEFD00DB641E /* FlightScheduleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightScheduleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CAEAE4821ECCEFD00DB641E /* FlightScheduleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightScheduleUITests.swift; sourceTree = "<group>"; };
+		6CAEAE4A21ECCEFD00DB641E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CAEAE2221ECCEF600DB641E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CAEAE3621ECCEFD00DB641E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CAEAE4121ECCEFD00DB641E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CAEAE1C21ECCEF600DB641E = {
+			isa = PBXGroup;
+			children = (
+				6CAEAE2721ECCEF600DB641E /* FlightSchedule */,
+				6CAEAE3C21ECCEFD00DB641E /* FlightScheduleTests */,
+				6CAEAE4721ECCEFD00DB641E /* FlightScheduleUITests */,
+				6CAEAE2621ECCEF600DB641E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CAEAE2621ECCEF600DB641E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CAEAE2521ECCEF600DB641E /* FlightSchedule.app */,
+				6CAEAE3921ECCEFD00DB641E /* FlightScheduleTests.xctest */,
+				6CAEAE4421ECCEFD00DB641E /* FlightScheduleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CAEAE2721ECCEF600DB641E /* FlightSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				6CAEAE2821ECCEF600DB641E /* AppDelegate.swift */,
+				6CAEAE2A21ECCEF700DB641E /* ViewController.swift */,
+				6CAEAE2C21ECCEF700DB641E /* Main.storyboard */,
+				6CAEAE2F21ECCEFC00DB641E /* Assets.xcassets */,
+				6CAEAE3121ECCEFC00DB641E /* LaunchScreen.storyboard */,
+				6CAEAE3421ECCEFC00DB641E /* Info.plist */,
+			);
+			path = FlightSchedule;
+			sourceTree = "<group>";
+		};
+		6CAEAE3C21ECCEFD00DB641E /* FlightScheduleTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CAEAE3D21ECCEFD00DB641E /* FlightScheduleTests.swift */,
+				6CAEAE3F21ECCEFD00DB641E /* Info.plist */,
+			);
+			path = FlightScheduleTests;
+			sourceTree = "<group>";
+		};
+		6CAEAE4721ECCEFD00DB641E /* FlightScheduleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6CAEAE4821ECCEFD00DB641E /* FlightScheduleUITests.swift */,
+				6CAEAE4A21ECCEFD00DB641E /* Info.plist */,
+			);
+			path = FlightScheduleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CAEAE2421ECCEF600DB641E /* FlightSchedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CAEAE4D21ECCEFD00DB641E /* Build configuration list for PBXNativeTarget "FlightSchedule" */;
+			buildPhases = (
+				6CAEAE2121ECCEF600DB641E /* Sources */,
+				6CAEAE2221ECCEF600DB641E /* Frameworks */,
+				6CAEAE2321ECCEF600DB641E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlightSchedule;
+			productName = FlightSchedule;
+			productReference = 6CAEAE2521ECCEF600DB641E /* FlightSchedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CAEAE3821ECCEFD00DB641E /* FlightScheduleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CAEAE5021ECCEFD00DB641E /* Build configuration list for PBXNativeTarget "FlightScheduleTests" */;
+			buildPhases = (
+				6CAEAE3521ECCEFD00DB641E /* Sources */,
+				6CAEAE3621ECCEFD00DB641E /* Frameworks */,
+				6CAEAE3721ECCEFD00DB641E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CAEAE3B21ECCEFD00DB641E /* PBXTargetDependency */,
+			);
+			name = FlightScheduleTests;
+			productName = FlightScheduleTests;
+			productReference = 6CAEAE3921ECCEFD00DB641E /* FlightScheduleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6CAEAE4321ECCEFD00DB641E /* FlightScheduleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CAEAE5321ECCEFD00DB641E /* Build configuration list for PBXNativeTarget "FlightScheduleUITests" */;
+			buildPhases = (
+				6CAEAE4021ECCEFD00DB641E /* Sources */,
+				6CAEAE4121ECCEFD00DB641E /* Frameworks */,
+				6CAEAE4221ECCEFD00DB641E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CAEAE4621ECCEFD00DB641E /* PBXTargetDependency */,
+			);
+			name = FlightScheduleUITests;
+			productName = FlightScheduleUITests;
+			productReference = 6CAEAE4421ECCEFD00DB641E /* FlightScheduleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CAEAE1D21ECCEF600DB641E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Eclectics;
+				TargetAttributes = {
+					6CAEAE2421ECCEF600DB641E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					6CAEAE3821ECCEFD00DB641E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 6CAEAE2421ECCEF600DB641E;
+					};
+					6CAEAE4321ECCEFD00DB641E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 6CAEAE2421ECCEF600DB641E;
+					};
+				};
+			};
+			buildConfigurationList = 6CAEAE2021ECCEF600DB641E /* Build configuration list for PBXProject "FlightSchedule" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CAEAE1C21ECCEF600DB641E;
+			productRefGroup = 6CAEAE2621ECCEF600DB641E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CAEAE2421ECCEF600DB641E /* FlightSchedule */,
+				6CAEAE3821ECCEFD00DB641E /* FlightScheduleTests */,
+				6CAEAE4321ECCEFD00DB641E /* FlightScheduleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CAEAE2321ECCEF600DB641E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CAEAE3321ECCEFC00DB641E /* LaunchScreen.storyboard in Resources */,
+				6CAEAE3021ECCEFC00DB641E /* Assets.xcassets in Resources */,
+				6CAEAE2E21ECCEF700DB641E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CAEAE3721ECCEFD00DB641E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CAEAE4221ECCEFD00DB641E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CAEAE2121ECCEF600DB641E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CAEAE2B21ECCEF700DB641E /* ViewController.swift in Sources */,
+				6CAEAE2921ECCEF600DB641E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CAEAE3521ECCEFD00DB641E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CAEAE3E21ECCEFD00DB641E /* FlightScheduleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CAEAE4021ECCEFD00DB641E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CAEAE4921ECCEFD00DB641E /* FlightScheduleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CAEAE3B21ECCEFD00DB641E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CAEAE2421ECCEF600DB641E /* FlightSchedule */;
+			targetProxy = 6CAEAE3A21ECCEFD00DB641E /* PBXContainerItemProxy */;
+		};
+		6CAEAE4621ECCEFD00DB641E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CAEAE2421ECCEF600DB641E /* FlightSchedule */;
+			targetProxy = 6CAEAE4521ECCEFD00DB641E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CAEAE2C21ECCEF700DB641E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CAEAE2D21ECCEF700DB641E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CAEAE3121ECCEFC00DB641E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CAEAE3221ECCEFC00DB641E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CAEAE4B21ECCEFD00DB641E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CAEAE4C21ECCEFD00DB641E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CAEAE4E21ECCEFD00DB641E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CMR5494N46;
+				INFOPLIST_FILE = FlightSchedule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "www.eclectics.eclectics-bank.FlightSchedule";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CAEAE4F21ECCEFD00DB641E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CMR5494N46;
+				INFOPLIST_FILE = FlightSchedule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "www.eclectics.eclectics-bank.FlightSchedule";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6CAEAE5121ECCEFD00DB641E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CMR5494N46;
+				INFOPLIST_FILE = FlightScheduleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "www.eclectics.eclectics-bank.FlightScheduleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightSchedule.app/FlightSchedule";
+			};
+			name = Debug;
+		};
+		6CAEAE5221ECCEFD00DB641E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CMR5494N46;
+				INFOPLIST_FILE = FlightScheduleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "www.eclectics.eclectics-bank.FlightScheduleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightSchedule.app/FlightSchedule";
+			};
+			name = Release;
+		};
+		6CAEAE5421ECCEFD00DB641E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CMR5494N46;
+				INFOPLIST_FILE = FlightScheduleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "www.eclectics.eclectics-bank.FlightScheduleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlightSchedule;
+			};
+			name = Debug;
+		};
+		6CAEAE5521ECCEFD00DB641E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CMR5494N46;
+				INFOPLIST_FILE = FlightScheduleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "www.eclectics.eclectics-bank.FlightScheduleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlightSchedule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CAEAE2021ECCEF600DB641E /* Build configuration list for PBXProject "FlightSchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CAEAE4B21ECCEFD00DB641E /* Debug */,
+				6CAEAE4C21ECCEFD00DB641E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CAEAE4D21ECCEFD00DB641E /* Build configuration list for PBXNativeTarget "FlightSchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CAEAE4E21ECCEFD00DB641E /* Debug */,
+				6CAEAE4F21ECCEFD00DB641E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CAEAE5021ECCEFD00DB641E /* Build configuration list for PBXNativeTarget "FlightScheduleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CAEAE5121ECCEFD00DB641E /* Debug */,
+				6CAEAE5221ECCEFD00DB641E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CAEAE5321ECCEFD00DB641E /* Build configuration list for PBXNativeTarget "FlightScheduleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CAEAE5421ECCEFD00DB641E /* Debug */,
+				6CAEAE5521ECCEFD00DB641E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CAEAE1D21ECCEF600DB641E /* Project object */;
+}
