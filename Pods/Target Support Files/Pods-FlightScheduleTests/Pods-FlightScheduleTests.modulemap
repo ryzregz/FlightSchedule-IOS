@@ -1,0 +1,6 @@
+framework module Pods_FlightScheduleTests {
+  umbrella header "Pods-FlightScheduleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

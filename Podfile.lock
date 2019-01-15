@@ -1,0 +1,51 @@
+PODS:
+  - Alamofire (4.2.0)
+  - DropDown (2.3.2)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.7.0):
+    - GoogleMaps/Base (= 2.7.0)
+  - ProgressHUD (2.60)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SwiftyJSON (4.1.0)
+  - UICheckbox.Swift (1.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.2.0)
+  - DropDown
+  - GoogleMaps
+  - GooglePlaces
+  - ProgressHUD
+  - SDWebImage (~> 4.0)
+  - SwiftyJSON (~> 4.0)
+  - UICheckbox.Swift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DropDown
+    - GoogleMaps
+    - GooglePlaces
+    - ProgressHUD
+    - SDWebImage
+    - SwiftyJSON
+    - UICheckbox.Swift
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  DropDown: 7f87abecc28f9b4edad810fe1211c5c018c257e5
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GooglePlaces: 3d06e6c99654545b4738ce49648745779c25f2ef
+  ProgressHUD: 4e4efbaf4f5de8bd32e0c4c3b6644a90ea1a8c3e
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+  UICheckbox.Swift: 85715689206fac5bae38b308f19c2a3e00442c3b
+
+PODFILE CHECKSUM: b8e29908d2383054601c7cbe2ead123ffbc55449
+
+COCOAPODS: 1.5.3

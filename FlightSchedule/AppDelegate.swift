@@ -2,11 +2,12 @@
 //  AppDelegate.swift
 //  FlightSchedule
 //
-//  Created by Eclectics on 14/01/2019.
-//  Copyright © 2019 Eclectics. All rights reserved.
+//  Created by Morris on 14/01/2019.
+//  Copyright © 2019 Morris. All rights reserved.
 //
 
 import UIKit
+import GoogleMaps
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        GMSServices.provideAPIKey("AIzaSyAR39sjEXYU-07dVCCadO9segZhHVOfnkw")
         return true
     }
 
